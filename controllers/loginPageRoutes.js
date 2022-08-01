@@ -7,7 +7,7 @@ router.get("/", async (req, res) => {
             res.redirect("/dashboard");
             return;
         }
-        res.render("loginPage")
+        res.render("loginPage")``
     } catch (err) {
         res.status(500).json(err);
     }

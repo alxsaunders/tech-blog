@@ -1,4 +1,3 @@
-// TECH BLOG - CHECKED, SAME AS REFERENCE
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
@@ -35,8 +34,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(routes);
 
-// INSTEAD OF LINE 5:
-// app.use(require('./controllers/'));
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
