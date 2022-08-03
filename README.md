@@ -1,7 +1,7 @@
 # Tech Blog
 
 ## Deploy Link 
-https://tech-blog25.herokuapp.com/
+https://fierce-citadel-41277.herokuapp.com/
 
 
  ## Table-of-Contents
